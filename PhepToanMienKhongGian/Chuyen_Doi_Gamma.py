@@ -13,7 +13,7 @@ def show_Chuyen_Doi_Gamma():
     (ax1, ax2), (ax3, ax4) = fig.subplots(2, 2)
 
     # Đọc ảnh đầu vào (ảnh xám)
-    img = cv.imread('PhepToan/sanbay.tif', 0)
+    img = cv.imread('PhepToanMienKhongGian/sanbay.tif', 0)
     # Hiển thị ảnh gốc
     ax1.imshow(img, cmap='gray')
     ax1.set_title("ảnh gốc")
