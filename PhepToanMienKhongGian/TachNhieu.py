@@ -17,7 +17,7 @@ def show_tach_nhieu():
     ax1, ax2 = fig.subplots(1, 2)
 
     # Đọc ảnh đầu vào (ảnh xám)
-    img = cv.imread('the-weeknd.webp', 0)
+    img = cv.imread('PhepToanMienKhongGian/sanbay.tif', 0)
     ax1.imshow(img, cmap='gray')
     ax1.set_title("Ảnh gốc")
 

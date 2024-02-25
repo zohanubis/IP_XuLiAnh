@@ -9,11 +9,11 @@ def Chuyen_doi_logarit(img, c):
 def show_Chuyen_doi_logarit():
     # Tạo một figure với kích thước 16x9
     fig = plt.figure(figsize=(16, 9))
-    # Tạo hai trục con
+    # Tạo hai vùng con
     ax1, ax2 = fig.subplots(1, 2)
 
     # Đọc ảnh đầu vào
-    img = cv.imread('PhepToan/log.tif')
+    img = cv.imread('PhepToanMienKhongGian/log.tif')
     # Hiển thị ảnh gốc
     ax1.imshow(img, cmap='gray')
     ax1.set_title("Ảnh gốc")

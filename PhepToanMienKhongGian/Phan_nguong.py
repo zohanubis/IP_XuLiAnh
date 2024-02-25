@@ -13,7 +13,7 @@ def show_cat_nguong():
     ax1, ax2 = fig.subplots(1, 2)
 
     # Đọc ảnh đầu vào (ảnh xám)
-    img = cv.imread('PhepToan/keodan_dau.tif', 0)
+    img = cv.imread('PhepToanMienKhongGian/keodan_dau.tif', 0)
     # Hiển thị ảnh gốc
     ax1.imshow(img, cmap='gray')
     ax1.set_title("ảnh gốc")
