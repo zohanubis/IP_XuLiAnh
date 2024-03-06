@@ -7,9 +7,9 @@ def dao_anh(img):
 
 # Hàm để hiển thị ảnh gốc và ảnh sau khi đảo
 def show_dao_anh():
-    # Tạo một figure với kích thước 16x9
+    # Tạo một figure với kích thước 16x9 - định nghĩa vùng
     fig = plt.figure(figsize=(16, 9))
-    # Tạo hai trục con để hiển thị ảnh gốc và ảnh sau khi đảo
+    # Tạo hai vùng để hiển thị ảnh gốc và ảnh sau khi đảo
     ax1, ax2 = fig.subplots(1, 2)
 
     # Đọc ảnh đầu vào (ảnh xám)
