@@ -18,7 +18,8 @@ while True:
     cv.imshow('Laplacian', laplacian)
     
     # Áp dụng thuật toán Canny Edge Detection trên frame
-    edges = cv.Canny(frame, 100, 100) #(frame ảnh đầu vào , ngưỡng dưới, ngưỡng trên)
+    edges = cv.Canny(frame, 150, 100) #(frame ảnh đầu vào , ngưỡng dưới, ngưỡng trên)
+
     cv.imshow('Canny', edges)
     
     # Chờ 5ms, nếu nhấn phím 'x' thì thoát
